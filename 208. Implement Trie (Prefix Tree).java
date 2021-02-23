@@ -1,6 +1,5 @@
 class Trie {
 
-    /** 先定義 TrieNode */
     class TrieNode{
         TrieNode[] children;
         boolean isWord;   
