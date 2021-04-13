@@ -1,0 +1,16 @@
+class Solution {
+    public int[] sortedSquares(int[] nums) {
+        
+        //先把大家都平方
+        //先遍歷裡面的每個數字，讓他們平方
+        
+        for (int i = 0; i < nums.length; i++) {
+           nums[i] = (int) Math.round(Math.pow(nums[i],2));
+        }
+        
+        //排序大家
+        Arrays.sort(nums);
+        
+        return nums;     
+    }
+}
