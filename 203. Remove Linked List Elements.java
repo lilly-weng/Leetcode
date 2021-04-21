@@ -16,7 +16,7 @@ class Solution {
         dummy.next = head;
         ListNode p = dummy; //指針指向 dummy
         
-        while (p.next != null) {
+        while (p.next != null) { //遍歷到最後一個
             if (p.next.val == val) { // 如果 p 的下一個值是 val
                 p.next = p.next.next; // 就跳過到下下個值
             } else {
