@@ -14,7 +14,7 @@ class Solution {
         
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
-        ListNode p = dummy; //指針指向 p
+        ListNode p = dummy; //指針指向 dummy
         
         while (p.next != null) {
             if (p.next.val == val) { // 如果 p 的下一個值是 val
